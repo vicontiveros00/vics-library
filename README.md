@@ -88,7 +88,7 @@ Takes <ins>2</ins> arguments:
 * A predicate function (takes 3 args: current index, current element index, and the provided array)
 Returns
 * Array
-Creates a new copy of the provided array, [dropping](#vic.drop(array,-number)) elements from the beginning of the array until an element causes the predicate function to return a falsy value.
+Creates a new copy of the provided array, [dropping](#vicdroparray-number) elements from the beginning of the array until an element causes the predicate function to return a falsy value.
 
 ### vic.chunk(array, size)
 Takes <ins>2</ins> arguments:

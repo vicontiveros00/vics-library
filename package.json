@@ -1,6 +1,6 @@
 {
   "name": "vic-library",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A mini JS library with useful functions",
   "main": "index.js",
   "scripts": {

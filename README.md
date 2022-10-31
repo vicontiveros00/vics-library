@@ -1,10 +1,11 @@
 # vic.js
-## Adding test file soon
-Hey, so I made a light-weight library with functions that come in handy from time to time. Overtime, this will grow. There's some (Leetcode)[https://leetcode.com/] questions in here too that I like to compile together in one place to study/refer to later on. Also contains some functions found in the (Lodash)[https://lodash.com/] library. Just helps to streamline workflow so you don't have to write functions you've used before over and over.
+**WILL ADD TEST FILES SOON**
+Hey, so I made a light-weight library with functions that come in handy from time to time. Overtime, this will grow. There's some [Leetcode](https://leetcode.com/) questions in here too that I like to compile together in one place to study/refer to later on. Also contains some functions found in the [Lodash](https://lodash.com/) library. Just helps to streamline workflow so you don't have to write functions you've used before over and over.
 
 Install it using `npm i vic-library`
 
-## Functions: (If you `ctrl+f` and find a few useful functions you might need, this library is great for you because it's not massive like the Lodash library, for example.)
+## Functions:
+(If you `ctrl+f` and find a few useful functions you might need, this library is great for you because it's not massive like the Lodash library, for example.)
 
 ### vic.clamp(number, lower, upper)
 Takes <ins>3</ins> arguments:
@@ -87,7 +88,7 @@ Takes <ins>2</ins> arguments:
 * A predicate function (takes 3 args: current index, current element index, and the provided array)
 Returns
 * Array
-Creates a new copy of the provided array, (dropping)[#vic.drop(array,-number)] elements from the beginning of the array until an element causes the predicate function to return a falsy value.
+Creates a new copy of the provided array, [dropping](#vic.drop(array,-number)) elements from the beginning of the array until an element causes the predicate function to return a falsy value.
 
 ### vic.chunk(array, size)
 Takes <ins>2</ins> arguments:

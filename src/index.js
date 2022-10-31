@@ -133,6 +133,6 @@ const vic = {
             }
         ).format(number);
     }
-  } //end of lodash library object
+  }
   
   module.exports = vic;

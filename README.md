@@ -100,14 +100,14 @@ Disjunction the provided array into an array of arrays at the provided size.
 **NOTE** If the array cannot be broken up evenly, the last array chunk will be truncated to math the provided size argument.
 **NOTE** If no size is supplied, it's value will be set to `1`.
 
-## vic.romanToInt(string)
+### vic.romanToInt(string)
 Takes <ins>1</ins> argument:
 * String
 Returns:
 * Integer
 Converts a given roman numeral as a string and returns the corresponding integer. The European Spanish language uses a lot of roman numerals so this is useful in translation scenarios.
 
-## vic.priceFormat(number)
+### vic.priceFormat(number)
 Takes <ins>1</ins> argument:
 * Integer
 Returns:

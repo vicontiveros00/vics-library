@@ -1,6 +1,6 @@
 {
   "name": "vic-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mini JS library with useful functions",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/vicontiveros00/vics-library/issues"
   },
-  "homepage": "https://github.com/vicontiveros00/vics-library#readme"
+  "homepage": "https://vicontiveros00.github.io/#projects"
 }

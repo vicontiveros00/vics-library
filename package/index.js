@@ -164,5 +164,5 @@ const vic = {
       }
     }
   }
-  
-  module.exports = vic;
+
+export default vic;

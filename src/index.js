@@ -132,6 +132,36 @@ const vic = {
                 currency: 'USD'
             }
         ).format(number);
+    },
+    solveQuadratic(a, b, c) {
+      let realNumber1;
+      let realNumber2;
+      let discriminant = b * b - 4 * (a * c);
+      if (discriminant > 0) {
+          realNumber1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+          realNumber2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+          return [realNumber1, realNumber2];
+      } else if (discriminant == 0) {
+          realNumber1 = discriminant == 0 && -b / (2 * a);
+          return [realNumber1]
+      } else {
+          let realSolution = (-b / (2 * a)).toFixed(2);
+          let imaginary = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
+          return `${realSolution} + ${imaginary}i and ${realSolution} - ${imaginary}i`;
+      }
+    },
+    factorial(number) {
+      if (number < 0) {
+        return;
+      } else if (number === 0) {
+        return 1;
+      } else {
+        let val = 1;
+        for (let i = 1; i <= number; i++) {
+          val *= i;
+        }
+        return val;
+      }
     }
   }
   

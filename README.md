@@ -2,6 +2,8 @@
 **WILL ADD TEST FILES SOON**<br>
 Hey, so I made a light-weight library with functions that come in handy from time to time. Overtime, this will grow. There's some [Leetcode](https://leetcode.com/) questions in here too that I like to compile together in one place to study/refer to later on. Also contains some functions found in the [Lodash](https://lodash.com/) library. Just helps to streamline workflow so you don't have to write functions you've used before over and over.
 
+***Update: Added some math functions***
+
 Install it using `npm i vic-library`
 
 ## Functions:
@@ -113,3 +115,19 @@ Takes <ins>1</ins> argument:
 Returns:
 * String<br>
 Formats a given integer into a string with the appropriate decimals, commas, and dollar sign. Currently configured to USD. 
+
+### vic.solveQuadratic(a, b, c)
+Takes <ins>3</ins> arguments:
+* Integer (A value of quadratic)
+* Integer (B value of quadratic)
+* Integer (C value of quadratic)<br>
+Returns:
+* String || Array<br>
+Finds x intercepts of parabola from quadratic equation (a^2x + bx + c) in an array. If no x intercepts are found, returns string format of imaginary solutions (i).
+
+### vic.factorial(number)
+Takes<ins>1</ins> argument:
+* Integer<br>
+Returns:
+* Integer<br>
+Finds factorial of any number Example: 5! = 5 * 4 * 3 * 2 * 1 = 120. 

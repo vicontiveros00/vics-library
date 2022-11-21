@@ -1,5 +1,5 @@
-# vic.js
-**WILL ADD TEST FILES SOON**<br>
+# vic. v 1.1.1
+
 Hey, so I made a light-weight library with functions that come in handy from time to time. Overtime, this will grow. There's some [Leetcode](https://leetcode.com/) questions in here too that I like to compile together in one place to study/refer to later on. Also contains some functions found in the [Lodash](https://lodash.com/) library. Just helps to streamline workflow so you don't have to write functions you've used before over and over.
 
 ***Update: Added some math functions***

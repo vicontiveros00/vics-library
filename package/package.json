@@ -1,16 +1,14 @@
 {
   "name": "vic-library",
-  "version": "1.0.9",
-  "description": "A mini JS library with useful functions",
+  "version": "1.1.1",
+  "description": "A lightweight library with object, array, string, and mathematical functions.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"sry, test aren't set up yet\" && exit 1"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vicontiveros00/vics-library.git"
   },
-  "author": "Victor Manuel Ontiveros",
+  "author": "Victor Manuel Ontiveros <vontierosewhs@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vicontiveros00/vics-library/issues"
